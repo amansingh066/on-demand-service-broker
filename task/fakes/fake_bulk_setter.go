@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/task"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/task"
 )
 
 type FakeBulkSetter struct {

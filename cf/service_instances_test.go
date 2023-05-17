@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/pivotal-cf/on-demand-service-broker/mockhttp"
-	"github.com/pivotal-cf/on-demand-service-broker/mockhttp/mockcfapi"
+	"github.com/amansingh066/on-demand-service-broker/mockhttp"
+	"github.com/amansingh066/on-demand-service-broker/mockhttp/mockcfapi"
 
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/cf/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/ghttp"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/cf/fakes"
 )
 
 var _ = Describe("ServiceInstancesClient", func() {

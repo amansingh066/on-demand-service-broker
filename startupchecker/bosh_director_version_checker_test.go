@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	. "github.com/pivotal-cf/on-demand-service-broker/startupchecker"
+	"github.com/amansingh066/on-demand-service-broker/config"
+	. "github.com/amansingh066/on-demand-service-broker/startupchecker"
 	"github.com/pivotal-cf/on-demand-services-sdk/serviceadapter"
 
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/broker"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
 )
 
 var _ = Describe("BOSH Director Version Checker", func() {

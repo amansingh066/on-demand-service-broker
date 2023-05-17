@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"
 
-	"github.com/pivotal-cf/on-demand-service-broker/serviceadapter"
+	"github.com/amansingh066/on-demand-service-broker/serviceadapter"
 	sdk "github.com/pivotal-cf/on-demand-services-sdk/serviceadapter"
 )
 

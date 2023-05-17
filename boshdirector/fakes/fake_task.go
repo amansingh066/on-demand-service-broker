@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/cloudfoundry/bosh-cli/v7/director"
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
 )
 
 type FakeTask struct {

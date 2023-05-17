@@ -9,9 +9,9 @@ package boshdirector_test
 import (
 	"fmt"
 
+	. "github.com/amansingh066/on-demand-service-broker/boshdirector"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/pivotal-cf/on-demand-service-broker/boshdirector"
 )
 
 var _ = Describe("Task", func() {

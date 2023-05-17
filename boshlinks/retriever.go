@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
 	"github.com/pkg/errors"
 )
 

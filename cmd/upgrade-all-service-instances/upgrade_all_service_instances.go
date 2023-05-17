@@ -12,10 +12,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/instanceiterator"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/instanceiterator"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
 	"gopkg.in/yaml.v2"
 )
 

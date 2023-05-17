@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/pivotal-cf/on-demand-service-broker/authorizationheader"
+	"github.com/amansingh066/on-demand-service-broker/authorizationheader"
 )
 
 type FakeAuthHeaderBuilder struct {

@@ -9,7 +9,7 @@ package broker
 import (
 	"log"
 
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
 )
 
 //counterfeiter:generate -o fakes/fake_manifest_secrets_manager.go . ManifestSecretManager

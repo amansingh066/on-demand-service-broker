@@ -14,12 +14,12 @@ import (
 	"log"
 	"time"
 
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/deleter"
+	"github.com/amansingh066/on-demand-service-broker/deleter/fakes"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/deleter"
-	"github.com/pivotal-cf/on-demand-service-broker/deleter/fakes"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
 )
 
 var _ = Describe("Deleter", func() {

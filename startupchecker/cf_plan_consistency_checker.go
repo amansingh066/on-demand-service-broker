@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/config"
 )
 
 type CFPlanConsistencyChecker struct {

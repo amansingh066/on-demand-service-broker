@@ -18,11 +18,11 @@ package boshdirector_test
 import (
 	"errors"
 
+	. "github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector/fakes"
+	"github.com/amansingh066/on-demand-service-broker/config"
 	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
 	boshuaa "github.com/cloudfoundry/bosh-cli/v7/uaa"
-	. "github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector/fakes"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

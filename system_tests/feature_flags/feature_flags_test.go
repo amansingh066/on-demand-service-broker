@@ -3,14 +3,14 @@ package feature_flags_test
 import (
 	"os"
 
+	bosh "github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
+	cf "github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/cf_helpers"
+	"github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/service_helpers"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 	"github.com/pborman/uuid"
-	bosh "github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
-	cf "github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/cf_helpers"
-	"github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/service_helpers"
 )
 
 var _ = Describe("FeatureFlags", func() {

@@ -1,12 +1,13 @@
 package uaa_test
 
 import (
+	"os"
+
+	"github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/uaa"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/pborman/uuid"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/uaa"
-	"os"
 )
 
 var _ = Describe("UAA Contract Tests", func() {

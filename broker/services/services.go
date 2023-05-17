@@ -16,11 +16,11 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/amansingh066/on-demand-service-broker/authorizationheader"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/mgmtapi"
+	"github.com/amansingh066/on-demand-service-broker/service"
 	"github.com/pivotal-cf/brokerapi/v9/domain"
-	"github.com/pivotal-cf/on-demand-service-broker/authorizationheader"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/mgmtapi"
-	"github.com/pivotal-cf/on-demand-service-broker/service"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

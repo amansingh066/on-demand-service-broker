@@ -20,12 +20,12 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/deleter"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
-	"github.com/pivotal-cf/on-demand-service-broker/purger"
-	"github.com/pivotal-cf/on-demand-service-broker/registrar"
-	"github.com/pivotal-cf/on-demand-service-broker/tools"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/deleter"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
+	"github.com/amansingh066/on-demand-service-broker/purger"
+	"github.com/amansingh066/on-demand-service-broker/registrar"
+	"github.com/amansingh066/on-demand-service-broker/tools"
 	"gopkg.in/yaml.v2"
 )
 

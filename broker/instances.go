@@ -9,7 +9,7 @@ package broker
 import (
 	"log"
 
-	"github.com/pivotal-cf/on-demand-service-broker/service"
+	"github.com/amansingh066/on-demand-service-broker/service"
 )
 
 func (b *Broker) Instances(filter map[string]string, logger *log.Logger) ([]service.Instance, error) {

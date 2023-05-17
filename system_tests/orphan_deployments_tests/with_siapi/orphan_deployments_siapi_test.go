@@ -18,14 +18,14 @@ package orphan_deployments_tests
 import (
 	"fmt"
 
+	"github.com/amansingh066/on-demand-service-broker/service"
+	bosh "github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
+	"github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/brokerapi_helpers"
+	"github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/siapi_helpers"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 	"github.com/pborman/uuid"
-	"github.com/pivotal-cf/on-demand-service-broker/service"
-	bosh "github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
-	"github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/brokerapi_helpers"
-	"github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/siapi_helpers"
 )
 
 var _ = Describe("orphan deployments errand", func() {

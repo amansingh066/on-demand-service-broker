@@ -12,16 +12,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pivotal-cf/on-demand-service-broker/uaa"
+	"github.com/amansingh066/on-demand-service-broker/uaa"
 
-	"github.com/pivotal-cf/on-demand-service-broker/broker/decider"
+	"github.com/amansingh066/on-demand-service-broker/broker/decider"
 
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
+	"github.com/amansingh066/on-demand-service-broker/service"
 	"github.com/pivotal-cf/brokerapi/v9/domain"
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
-	"github.com/pivotal-cf/on-demand-service-broker/service"
 	"github.com/pivotal-cf/on-demand-services-sdk/bosh"
 	"github.com/pivotal-cf/on-demand-services-sdk/serviceadapter"
 )

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/pivotal-cf/on-demand-service-broker/integration_tests/helpers"
+	"github.com/amansingh066/on-demand-service-broker/integration_tests/helpers"
 
 	"github.com/onsi/gomega/ghttp"
 
@@ -27,14 +27,14 @@ import (
 
 	"strings"
 
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	brokerConfig "github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/mgmtapi"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	brokerConfig "github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/mgmtapi"
 	sdk "github.com/pivotal-cf/on-demand-services-sdk/serviceadapter"
 	"github.com/pkg/errors"
 )

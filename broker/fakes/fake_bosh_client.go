@@ -5,9 +5,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/config"
 	"github.com/pivotal-cf/on-demand-services-sdk/bosh"
 )
 

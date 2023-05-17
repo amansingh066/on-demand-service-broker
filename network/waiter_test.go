@@ -5,10 +5,10 @@ import (
 
 	"time"
 
+	"github.com/amansingh066/on-demand-service-broker/network"
+	"github.com/amansingh066/on-demand-service-broker/network/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/on-demand-service-broker/network"
-	"github.com/pivotal-cf/on-demand-service-broker/network/fakes"
 )
 
 var _ = Describe("Waiter", func() {
