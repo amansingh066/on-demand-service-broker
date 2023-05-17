@@ -71,7 +71,9 @@ func (d *DNSRetriever) LinkProviderID(deploymentName, instanceGroupName, provide
 		return "", errors.Wrap(err, "cannot unmarshal links provider JSON")
 	}
 
+	fmt.Println("LinkProviders for postgres -> ", len(providers))
 	for _, provider := range providers {
+		fmt.Printf("LinkProviders for postgres { provider.Shared:%v provider.Name,providerName:%v , provider.Name %s,providerName:%s,provider.OwnerObject.Info.InstanceGroup :%s ,instanceGroupName :%s}-> \n ", provider.Shared, provider.Name, providerName, provider.OwnerObject.Info.InstanceGroup, instanceGroupName)
 		if provider.Shared && provider.Name == providerName && provider.OwnerObject.Info.InstanceGroup == instanceGroupName {
 			return provider.ID, nil
 		}
