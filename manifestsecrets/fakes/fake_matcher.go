@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/pivotal-cf/on-demand-service-broker/boshdirector"
-	"github.com/pivotal-cf/on-demand-service-broker/manifestsecrets"
+	"github.com/amansingh066/on-demand-service-broker/boshdirector"
+	"github.com/amansingh066/on-demand-service-broker/manifestsecrets"
 )
 
 type FakeMatcher struct {

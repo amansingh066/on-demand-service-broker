@@ -18,16 +18,16 @@ package deregister_broker_test
 import (
 	"time"
 
+	"github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/integration_tests/helpers"
+	"github.com/amansingh066/on-demand-service-broker/mockhttp"
+	"github.com/amansingh066/on-demand-service-broker/mockhttp/mockcfapi"
+	"github.com/amansingh066/on-demand-service-broker/mockuaa"
+	"github.com/amansingh066/on-demand-service-broker/registrar"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/integration_tests/helpers"
-	"github.com/pivotal-cf/on-demand-service-broker/mockhttp"
-	"github.com/pivotal-cf/on-demand-service-broker/mockhttp/mockcfapi"
-	"github.com/pivotal-cf/on-demand-service-broker/mockuaa"
-	"github.com/pivotal-cf/on-demand-service-broker/registrar"
 	"gopkg.in/yaml.v2"
 )
 

@@ -5,7 +5,7 @@ This is an on-demand broker designed to take advantage of BOSH 2.0 features such
 as IP management and global cloud configuration.
 
 In production, this application is deployed via a BOSH release. See its
-[repo](https://github.com/pivotal-cf/on-demand-service-broker-release) for more
+[repo](https://github.com/amansingh066/on-demand-service-broker-release) for more
 details.
 
 This repository is the broker implementation. To build a service that uses the broker, see the [on-demand-services-sdk](https://github.com/pivotal-cf/on-demand-services-sdk)
@@ -18,7 +18,7 @@ User documentation can be found [here](https://docs.pivotal.io/svc-sdk/odb). Doc
 
 ### How are dependencies managed?
 We only deploy this application with BOSH. Its dependencies are vendored as submodules
-into the [BOSH release](https://github.com/pivotal-cf/on-demand-service-broker-release).
+into the [BOSH release](https://github.com/amansingh066/on-demand-service-broker-release).
 
 ### Go dependencies
 Go dependencies are managed using `go mod`.

@@ -4,9 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/pborman/uuid"
 
-	. "github.com/pivotal-cf/on-demand-service-broker/system_tests/lifecycle/all_lifecycle_tests"
-	"github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
-	"github.com/pivotal-cf/on-demand-service-broker/system_tests/test_helpers/service_helpers"
+	"github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/bosh_helpers"
+	"github.com/amansingh066/on-demand-service-broker/system_tests/test_helpers/service_helpers"
 )
 
 var _ = Describe("Redis Lifecycle Tests", func() {

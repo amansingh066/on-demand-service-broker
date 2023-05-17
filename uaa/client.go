@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/amansingh066/on-demand-service-broker/config"
 	gouaa "github.com/cloudfoundry-community/go-uaa"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
 	"github.com/pkg/errors"
 )
 

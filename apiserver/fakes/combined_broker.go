@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	"github.com/pivotal-cf/brokerapi/v9/domain"
-	"github.com/pivotal-cf/on-demand-service-broker/apiserver"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/service"
+	"github.com/amansingh066/on-demand-service-broker/apiserver"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/service"
 )
 
 type FakeCombinedBroker struct {

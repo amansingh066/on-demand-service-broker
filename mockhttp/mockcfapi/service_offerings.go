@@ -9,7 +9,7 @@ package mockcfapi
 import (
 	"fmt"
 
-	"github.com/pivotal-cf/on-demand-service-broker/mockhttp"
+	"github.com/amansingh066/on-demand-service-broker/mockhttp"
 )
 
 type serviceOfferingsMock struct {

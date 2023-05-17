@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/amansingh066/on-demand-service-broker/cf"
+	"github.com/amansingh066/on-demand-service-broker/config"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/on-demand-service-broker/cf"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
 )
 
 func TestCF(t *testing.T) {

@@ -18,8 +18,8 @@ package on_demand_service_broker_test
 import (
 	"fmt"
 
+	brokerConfig "github.com/amansingh066/on-demand-service-broker/config"
 	"github.com/pivotal-cf/brokerapi/v9/domain/apiresponses"
-	brokerConfig "github.com/pivotal-cf/on-demand-service-broker/config"
 	"github.com/pkg/errors"
 
 	"net/http"

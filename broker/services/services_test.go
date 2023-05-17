@@ -16,17 +16,17 @@ import (
 	"os"
 	"strings"
 
+	"github.com/amansingh066/on-demand-service-broker/authorizationheader/fakes"
+	"github.com/amansingh066/on-demand-service-broker/broker"
+	"github.com/amansingh066/on-demand-service-broker/broker/services"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
+	"github.com/amansingh066/on-demand-service-broker/mgmtapi"
+	"github.com/amansingh066/on-demand-service-broker/service"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/pivotal-cf/brokerapi/v9/domain"
-	"github.com/pivotal-cf/on-demand-service-broker/authorizationheader/fakes"
-	"github.com/pivotal-cf/on-demand-service-broker/broker"
-	"github.com/pivotal-cf/on-demand-service-broker/broker/services"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
-	"github.com/pivotal-cf/on-demand-service-broker/mgmtapi"
-	"github.com/pivotal-cf/on-demand-service-broker/service"
 
-	fakeclients "github.com/pivotal-cf/on-demand-service-broker/broker/services/fakes"
+	fakeclients "github.com/amansingh066/on-demand-service-broker/broker/services/fakes"
 )
 
 var _ = Describe("Broker Services", func() {

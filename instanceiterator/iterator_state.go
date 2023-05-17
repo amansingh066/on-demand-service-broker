@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pivotal-cf/on-demand-service-broker/service"
+	"github.com/amansingh066/on-demand-service-broker/service"
 )
 
 type instanceInfo struct {

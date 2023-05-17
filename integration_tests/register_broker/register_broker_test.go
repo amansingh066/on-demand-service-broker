@@ -10,12 +10,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/pivotal-cf/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/config"
 	"gopkg.in/yaml.v2"
 
+	"github.com/amansingh066/on-demand-service-broker/integration_tests/helpers"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/ghttp"
-	"github.com/pivotal-cf/on-demand-service-broker/integration_tests/helpers"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

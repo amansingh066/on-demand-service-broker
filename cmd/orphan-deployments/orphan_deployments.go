@@ -15,11 +15,11 @@ import (
 	"os"
 	"time"
 
+	"github.com/amansingh066/on-demand-service-broker/authorizationheader"
+	"github.com/amansingh066/on-demand-service-broker/broker/services"
+	"github.com/amansingh066/on-demand-service-broker/config"
+	"github.com/amansingh066/on-demand-service-broker/loggerfactory"
 	"github.com/craigfurman/herottp"
-	"github.com/pivotal-cf/on-demand-service-broker/authorizationheader"
-	"github.com/pivotal-cf/on-demand-service-broker/broker/services"
-	"github.com/pivotal-cf/on-demand-service-broker/config"
-	"github.com/pivotal-cf/on-demand-service-broker/loggerfactory"
 	yaml "gopkg.in/yaml.v2"
 )
 
